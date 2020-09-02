@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf913705e9f5c05449b5cb97ffed5483, type: 3}
+  m_Name: NpcData5
+  m_EditorClassIdentifier: 
+  npcName: Betty
+  gender: 1
+  npcPrefab: {fileID: 2114226203556487587, guid: 06b9f35bbff83b4449251e099daea66a,
+    type: 3}
+  testiness: 30
+  vitality: 30
+  courage: 30
+  dialogueList:
+  - key: 0
+    dialogueContext: "\u6DD1\u5973\u53EF\u4E0D\u4F1A\u51FA\u95E8\u95F2\u901B"
+  - key: 1
+    dialogueContext: "\u6211\u53EF\u4E0D\u60F3\u51FA\u4E00\u8EAB\u81ED\u6C57"
+  - key: 2
+    dialogueContext: "\u4F60\u662F\u5BF9\u7684  \u793E\u4EA4\u5BF9\u4E8E\u6210\u4E3A\u6DD1\u5973\u4E5F\u662F\u5F88\u91CD\u8981\u7684"
+  - key: 3
+    dialogueContext: "\u4F60\u7ED9\u6211\u79BB\u5F00"
+  - key: 4
+    dialogueContext: "\u5440\uFF01"

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf913705e9f5c05449b5cb97ffed5483, type: 3}
+  m_Name: NpcData4
+  m_EditorClassIdentifier: 
+  npcName: Beth
+  gender: 1
+  npcPrefab: {fileID: 8194299055650842937, guid: 6d843183bb16fd149a8316a87337aa8f,
+    type: 3}
+  testiness: 60
+  vitality: 50
+  courage: 30
+  dialogueList:
+  - key: 0
+    dialogueContext: "\u6211\u53EF\u6CA1\u90A3\u95F2\u5DE5\u592B"
+  - key: 1
+    dialogueContext: "\u55EF  \u4F60\u8BF4\u7684\u5BF9  \u4F46\u6211\u624B\u4E0A\u5FD9\u7684\u4E0D\u53EF\u5F00\u4EA4\u5462"
+  - key: 2
+    dialogueContext: "\u4F60\u8BF4\u7684\u5BF9  \u6216\u8BB8\u6211\u4E0D\u8BE5\u88AB\u592A\u591A\u6742\u4E8B\u62D6\u4F4F\u81EA\u5DF1 
+      \u6216\u8BB8\u6211\u8BE5\u53BB\u627E\u6211\u7684\u51E0\u4E2A\u597D\u59D0\u59B9\u805A\u805A 
+      \u597D\u597D\u4EAB\u53D7\u4EBA\u751F"
+  - key: 3
+    dialogueContext: "\u4F60\u6700\u597D\u7ED9\u6211\u6EDA\u86CB\uFF01"
+  - key: 4
+    dialogueContext: "\u5440\u554A\u554A\u554A\uFF01\uFF01"

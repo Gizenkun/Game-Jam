@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf913705e9f5c05449b5cb97ffed5483, type: 3}
+  m_Name: NpcData1
+  m_EditorClassIdentifier: 
+  npcName: Tim
+  gender: 0
+  npcPrefab: {fileID: 7146870615058416500, guid: 9cd111f4cfaeb104b9c5be28197f6e21,
+    type: 3}
+  testiness: 30
+  vitality: 40
+  courage: 40
+  dialogueList:
+  - key: 0
+    dialogueContext: "\u8FD9\u79CD\u5929\u6C14\u6211\u5B81\u613F\u8EBA\u5728\u5BB6\u91CC\u7761\u61D2\u89C9"
+  - key: 1
+    dialogueContext: "\u55EF  \u8BF4\u5B9E\u8BDD  \u8FD9\u4E2A\u4E3B\u610F\u8FD8\u4E0D\u8D56 
+      \u4F46\u6211\u7684\u6E38\u620F\u8FD8\u6CA1\u6253\u5B8C\u5462"
+  - key: 2
+    dialogueContext: "\u4F60\u662F\u5BF9\u7684   \u771F\u662F\u4E2A\u597D\u5929\u6C14\u554A 
+      \u6216\u8BB8\u6211\u4EE5\u540E\u8BE5\u591A\u51FA\u6765\u8D70\u8D70"
+  - key: 3
+    dialogueContext: "\u4F60\u6700\u597D\u8D76\u7D27\u6EDA \u4E0D\u7136\u6211\u4E00\u5B9A\u6295\u8BC9\u4F60\uFF01"
+  - key: 4
+    dialogueContext: "\u554A\u554A\u554A\u554A\uFF01\uFF01\uFF01"

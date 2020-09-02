@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf913705e9f5c05449b5cb97ffed5483, type: 3}
+  m_Name: NpcData3
+  m_EditorClassIdentifier: 
+  npcName: Barlow
+  gender: 0
+  npcPrefab: {fileID: 2290113033669521646, guid: d45550b7cc95766498cfb4254d2586a6,
+    type: 3}
+  testiness: 50
+  vitality: 40
+  courage: 50
+  dialogueList:
+  - key: 0
+    dialogueContext: "\u5FEB\u79BB\u5F00\u8FD9 \u4E0D\u8981\u6253\u6270\u6211\u4EAB\u53D7\u97F3\u4E50"
+  - key: 1
+    dialogueContext: "\u6211\u66F4\u613F\u610F\u5728\u5BB6\u91CC\u4EAB\u53D7\u97F3\u4E50"
+  - key: 2
+    dialogueContext: "\u4F60\u662F\u5BF9\u7684 \u8FD9\u5929\u6C14\u7B80\u76F4\u548C\u97F3\u4E50\u4E00\u6837\u7F8E\u5999
+      \u6216\u8BB8\u6211\u53EF\u4EE5\u5728\u516C\u56ED\u529E\u4E2A\u97F3\u4E50\u4F1A"
+  - key: 3
+    dialogueContext: "\u4F60\u60F9\u607C\u6211\u4E86\uFF01"
+  - key: 4
+    dialogueContext: "\u554A\u554A\u554A  \u8FD9\u662F\u4EC0\u4E48\u6076\u5FC3\u7684\u4E1C\u897F"
